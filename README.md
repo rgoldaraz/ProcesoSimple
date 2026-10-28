@@ -1,7 +1,6 @@
 # Gestor de Solicitudes
 
-Aplicación web para gestionar solicitudes internas: crear, consultar, editar y eliminar registros,
-con búsqueda por título y filtro por estado.
+Aplicación web para gestionar solicitudes internas: crear, consultar, editar y eliminar registros, con búsqueda por título y filtro por estado.
 
 ## Requisitos previos
 
@@ -25,8 +24,7 @@ No existe registro ni recuperación de contraseñas: la sesión se guarda en `se
 
 ## Cómo restablecer los datos
 
-En el listado, pulsa el botón **«Restablecer datos de prueba»** y confirma.
-Se reemplazan las solicitudes actuales por las 5 solicitudes iniciales (operación idempotente).
+En el listado, pulsa el botón **Restablecer datos de prueba** y confirma. Se reemplazan las solicitudes actuales por las 5 solicitudes iniciales (operación idempotente).
 
 ## Limitaciones de la persistencia
 
@@ -52,5 +50,4 @@ src/
   styles.css        Estilos
 ```
 
-Los elementos interactivos incluyen atributos `data-testid` y nombres accesibles
-estables, con etiquetado HTML semántico.
+Los elementos interactivos incluyen atributos `data-testid` y nombres accesibles estables, con etiquetado HTML semántico.
